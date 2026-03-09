@@ -12,7 +12,7 @@ video.
 </video>
 
 
-
+[![Alt Text for Video](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)](https://github.com/OpenMarkov/wiki/raw/refs/heads/main/resources/edits/basic_edit_in_use.mp4)
 
 To make an edit to take place, you only need to find the right edit, create an instance of it, and
 then calling the ````execute```` method. For example, this would add a chance node in the network.
