@@ -7,8 +7,7 @@ This allows to build a history of the actions made by the user, so he can undo a
 ````Ctrl + Z```` and redo them with ````Ctrl + Y````. This can be seen in practice in the following
 video.
 
-
-[![Alt Text for Video](https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)](https://github.com/OpenMarkov/wiki/blob/main/resources/edits/basic_edit_in_use.mp4)
+https://github.com/user-attachments/assets/088e6d89-f70d-4dcb-a57c-335c51d0c984
 
 To make an edit to take place, you only need to find the right edit, create an instance of it, and
 then calling the ````execute```` method. For example, this would add a chance node in the network.
