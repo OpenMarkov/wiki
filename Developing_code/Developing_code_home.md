@@ -8,7 +8,7 @@ code in OpenMarkov.
 OpenMarkov has several extension points for adding code easily, and they imply creating specific classes.
 
 * [Menu items](Menu_items.md).
-* [Edits](Edits.md).
+* [Edits](Edits/Edits.md).
 * [Constraints](Constraints.md) and network types.
 * [Learning algorithms](Learning_algorithms.md).
 * [Metrics](Metrics.md) for search-and-score learning algorithms.

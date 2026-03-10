@@ -46,7 +46,7 @@ Locate the desired menu class, these are the possible ones as for now (june 2018
 
 4. Create an entry for your item in the protected getter of the menu: `getJComponentActionCommand()`.
 
-5. Create an `else if` clause in the `actionPerformed()` of `MainPanelListenerAssistant` that activates when the action command of your menu item is detected (you clicked the item). The code inside will be run then. *This effectively links the button with the action it produces.* Common options for running code there are  [running an edit](Edits.md#creating-an-edit) or running a function from the editor panel, which you do by:
+5. Create an `else if` clause in the `actionPerformed()` of `MainPanelListenerAssistant` that activates when the action command of your menu item is detected (you clicked the item). The code inside will be run then. *This effectively links the button with the action it produces.* Common options for running code there are  [running an edit](Edits/Edits.md#creating-an-edit) or running a function from the editor panel, which you do by:
 
     4.1 Calling a function from the current `NetworkPanel` with: `getCurrentNetworkPanel().<yourFunction>();`
 
