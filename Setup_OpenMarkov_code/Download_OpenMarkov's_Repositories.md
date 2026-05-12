@@ -29,6 +29,7 @@ git clone -b development https://github.com/OpenMarkov/resttemplate
 git clone -b development https://github.com/OpenMarkov/stochasticPropagationOutput
 
 git clone -b development https://github.com/OpenMarkov/sensitivityAnalysis
+echo "Finished cloning"
 ```
 
 
