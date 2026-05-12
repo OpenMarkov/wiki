@@ -4,7 +4,33 @@ At this point, you are supposed to have a working IDE and Git in your computer; 
 
 You have to download every repository you want to browse plus these two: *org.openmarkov*, which is like the front door of OpenMarkov; and *org.openmarkov.full*, which acts as the corridors to the other Maven repositories.
 
-You can download all repositories with [this script](https://bitbucket.org/cisiad/org.openmarkov/wiki/resources/User%20repositories%20-%20script).
+You can download all repositories with this script:
+
+```
+git clone -b development https://github.com/OpenMarkov/root
+git clone -b development https://github.com/OpenMarkov/annotationProcessing
+git clone -b development https://github.com/OpenMarkov/core
+
+git clone -b development https://github.com/OpenMarkov/full  
+
+git clone -b development https://github.com/OpenMarkov/bnEvaluation
+git clone -b development https://github.com/OpenMarkov/costEffectiveness
+git clone -b development https://github.com/OpenMarkov/dbGenerator
+git clone -b development https://github.com/OpenMarkov/gui
+git clone -b development https://github.com/OpenMarkov/hardTesting
+git clone -b development https://github.com/OpenMarkov/inference
+git clone -b development https://github.com/OpenMarkov/integrationTests
+git clone -b development https://github.com/OpenMarkov/io
+git clone -b development https://github.com/OpenMarkov/learning.algorithm
+git clone -b development https://github.com/OpenMarkov/learning.core
+git clone -b development https://github.com/OpenMarkov/learning.gui
+git clone -b development https://github.com/OpenMarkov/learning.metric
+git clone -b development https://github.com/OpenMarkov/resttemplate
+git clone -b development https://github.com/OpenMarkov/stochasticPropagationOutput
+
+git clone -b development https://github.com/OpenMarkov/sensitivityAnalysis
+```
+
 
 If you don't want to download all the repositories, simply delete them from the previous script. You have a [list](https://bitbucket.org/cisiad/org.openmarkov/wiki/resources/repositories) to help you choose. 
 
